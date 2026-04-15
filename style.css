@@ -7,6 +7,7 @@
 h1 {
   margin-bottom: 24px;
   margin-top: 82px;
+  font-family: sans-serif;
 }
 
 .buttons {
@@ -40,3 +41,14 @@ footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+body {
+background-color:  #030026;
+background-image: url(Img/Fondo.png);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 100vh;
+margin:0;
+}
+
