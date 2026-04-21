@@ -7,7 +7,20 @@
 h1 {
   margin-bottom: 24px;
   margin-top: 82px;
-  font-family: sans-serif;
+  font-size: 96px;
+  font-weight: 600;
+  color: #FFFFFF;
+  letter-spacing: -2.67px;
+  text-align: center;
+}
+
+h2 {
+font-family: sans-serif;
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+color: #E2E2E2;
+letter-spacing: 0.67px;
 }
 
 .buttons {
@@ -20,8 +33,24 @@ h1 {
   gap: 68px;
   align-self: stretch;
   flex-wrap: wrap;
+  
 }
 
+.buttons3{
+  
+    display: flex;
+    width: 486.667px;
+    height: 186.667px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background: linear-gradient(117deg,rgba(255, 255, 255, 0.15) 23.56%,rgba(153, 153, 153, 0.15) 76.44%);
+    box-shadow: 0px 6.667px 26.667px 0px rgba(27, 27, 27, 0.25),2.6px -2.68px 26.667px 0px rgba(214, 214, 214, 0.17) inset,-4.018px 4.018px 4.018px 0px rgba(255, 255, 255, 0.39) inset;
+    backdrop-filter: blur(49.61956024169922px);
+
+
+
+}
 footer {
   display: flex;
   justify-content: space-between;
